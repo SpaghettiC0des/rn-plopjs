@@ -1,13 +1,9 @@
 export enum Screens {
+  // __CODE_GENERATOR__
   SignIn = 'SignInScreen',
   SignUp = 'SignUpScreen',
   ForgotPassword = 'ForgotPasswordScreen',
   Welcome = 'WelcomeScreen',
   Home = 'HomeScreen',
-}
-
-export enum Navigators {
-  MainStack = 'MainStackNavigator',
-  RootStack = 'RootStackNavigator',
-  AuthStack = 'AuthStackNavigator',
+  DrawerHome = 'DrawerHome',
 }

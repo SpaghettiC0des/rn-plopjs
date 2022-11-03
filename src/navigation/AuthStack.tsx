@@ -12,7 +12,12 @@ const {Navigator, Screen} = createStackNavigator<AuthStackParamList>();
 
 export const AuthStackNavigator = () => (
   <Navigator id={Navigators.AuthStack}>
-    <Screen component={WelcomeScreen} name={Screens.Welcome} />
+    {/* __CODE_GENERATOR__ */}
+    <Screen
+      component={WelcomeScreen}
+      name={Screens.Welcome}
+      options={{headerShown: false}}
+    />
     <Screen component={SignInScreen} name={Screens.SignIn} />
     <Screen component={SignUpScreen} name={Screens.SignUp} />
     <Screen component={ForgotPasswordScreen} name={Screens.ForgotPassword} />
