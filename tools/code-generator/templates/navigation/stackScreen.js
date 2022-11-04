@@ -9,6 +9,7 @@ module.exports = function (
   const typingsComment = {
     MainStack: '__MAIN_STACK__',
     AuthStack: '__AUTH_STACK__',
+    MainDrawer: '__MAIN_DRAWER__',
   };
   plop.setGenerator('stack-screen', {
     description: 'creates a new screen for a stack navigator',
@@ -23,7 +24,7 @@ module.exports = function (
           },
           {
             name: 'Drawer',
-            value: 'Drawer',
+            value: 'MainDrawer',
           },
           {
             name: 'Auth',
